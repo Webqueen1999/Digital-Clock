@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    text-align: center;
+}
+
+.outer{
+    background-color: white;
+    padding : 50px;
+}
+h1{
+    color: red;
+    margin-bottom: 10px;
+}
+
+.date{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.day{
+    font-size: 20px;
+}
+
+.time{
+    font-size: 30px;
+    font-weight: 600;
+}
